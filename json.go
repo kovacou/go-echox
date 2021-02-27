@@ -16,7 +16,7 @@ func EncodeJSON(ctx echo.Context, code int, i interface{}) error {
 	r.Header().Set(echo.HeaderContentType, echo.MIMEApplicationJSONCharsetUTF8)
 	r.Status = code
 
-	json, _ := jettison.MarshalOpts(i, jettison.NilSliceEmpty())
+	json, _ := jettison.MarshalOpts(i, jettison.NilSliceEmpty(), jettison.NilMapEmpty())
 	_, err := r.Write(json)
 	return err
 }

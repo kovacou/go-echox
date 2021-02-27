@@ -36,8 +36,6 @@ func (ok OK) JSON(ctx echo.Context) error {
 		}
 
 		ok.Data = http.StatusText(ok.Code)
-	} else if ok.Meta == nil {
-		ok.Meta = types.Map{}
 	}
 
 	return EncodeJSON(ctx, ok.Code, ok)
