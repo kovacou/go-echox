@@ -47,7 +47,7 @@ func QueryPage(ctx echo.Context) uint64 {
 	return p
 }
 
-// parseDate parse the given string as date.
+// ParseDate parse the given string as date.
 func ParseDate(v string) types.Date {
 	utc := time.Now().UTC()
 
