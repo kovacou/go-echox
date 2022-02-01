@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/kovacou/go-convert v0.0.4
 	github.com/kovacou/go-types v0.0.1
-	github.com/labstack/echo v3.3.10+incompatible
+	github.com/labstack/echo/v4 v4.6.3
 	github.com/wI2L/jettison v0.7.3
 )
 
@@ -16,8 +16,8 @@ require (
 	github.com/twpayne/go-polyline v1.0.1 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasttemplate v1.2.1 // indirect
-	golang.org/x/crypto v0.0.0-20220112180741-5e0467b6c7ce // indirect
-	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
+	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
+	golang.org/x/net v0.0.0-20210913180222-943fd674d43e // indirect
 	golang.org/x/sys v0.0.0-20211103235746-7861aae1554b // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/text v0.3.7 // indirect
 )

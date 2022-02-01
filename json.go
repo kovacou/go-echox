@@ -6,7 +6,7 @@
 package echox
 
 import (
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 	"github.com/wI2L/jettison"
 )
 

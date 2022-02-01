@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/kovacou/go-types"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 // OK is the representation of the response wrapper.

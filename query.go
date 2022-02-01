@@ -11,7 +11,7 @@ import (
 
 	"github.com/kovacou/go-convert"
 	"github.com/kovacou/go-types"
-	"github.com/labstack/echo"
+	"github.com/labstack/echo/v4"
 )
 
 // QueryScopes returns parsed scopes.
